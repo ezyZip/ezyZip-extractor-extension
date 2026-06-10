@@ -62,9 +62,7 @@ requests only**; rules never touch `Access-Control-Allow-Methods` and only
 - **Firefox.** Firefox's `declarativeNetRequest` has no response-header
   conditions, so the Firefox variant instead ships **per-origin ACAO echo rules**
   in `rules.json` — each sets ACAO to the exact requesting origin (the `www` rule
-  outranks the apex rule). One consequence: archives served behind a
-  **cross-origin redirect** can't be fetched yet on Firefox, because a redirected
-  request sends `Origin: null` and only a wildcard `*` would satisfy it.
+  outranks the apex rule). The Firefox add-on is live on AMO.
 
 ## Privacy
 
