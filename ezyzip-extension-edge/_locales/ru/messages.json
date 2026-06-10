@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Распаковщик Файлов",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Нажмите правой кнопкой мыши на любую ссылку архива и мгновенно распакуйте его с помощью ezyZip.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "Распаковать с ezyZip",
+    "description": "Right-click context menu label shown on links"
+  }
+}

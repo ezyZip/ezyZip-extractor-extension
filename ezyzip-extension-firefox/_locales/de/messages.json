@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Datei-Entpacker",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Rechtsklick auf einen Archivlink und sofort mit ezyZip entpacken.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "Mit ezyZip entpacken",
+    "description": "Right-click context menu label shown on links"
+  }
+}

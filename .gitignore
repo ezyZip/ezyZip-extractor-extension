@@ -1,0 +1,10 @@
+# build output
+dist/
+*.zip
+
+# macOS / browser-generated cruft
+.DS_Store
+_metadata/
+
+# node
+node_modules/

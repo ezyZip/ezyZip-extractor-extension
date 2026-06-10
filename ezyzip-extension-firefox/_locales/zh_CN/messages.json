@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip 文件解压器",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "右键单击任意压缩包链接，即可通过 ezyZip 立即解压。",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "使用 ezyZip 解压",
+    "description": "Right-click context menu label shown on links"
+  }
+}

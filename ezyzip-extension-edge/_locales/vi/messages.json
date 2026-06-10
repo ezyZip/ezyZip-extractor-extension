@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Trình Giải Nén Tệp",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Nhấp chuột phải vào bất kỳ liên kết lưu trữ nào và giải nén ngay lập tức với ezyZip.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "Giải nén với ezyZip",
+    "description": "Right-click context menu label shown on links"
+  }
+}

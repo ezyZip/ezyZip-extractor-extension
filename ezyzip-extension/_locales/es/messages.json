@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Extractor de Archivos",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Haz clic derecho en cualquier enlace de archivo y extráelo al instante con ezyZip.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "Extraer con ezyZip",
+    "description": "Right-click context menu label shown on links"
+  }
+}

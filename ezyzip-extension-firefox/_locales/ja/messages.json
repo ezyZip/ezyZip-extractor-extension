@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip ファイル解凍ツール",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "アーカイブリンクを右クリックして、ezyZipで即座に解凍できます。",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "ezyZipで解凍",
+    "description": "Right-click context menu label shown on links"
+  }
+}

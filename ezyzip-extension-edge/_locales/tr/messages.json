@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Dosya Çıkarıcı",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Herhangi bir arşiv bağlantısına sağ tıklayın ve ezyZip ile anında açın.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "ezyZip ile Aç",
+    "description": "Right-click context menu label shown on links"
+  }
+}

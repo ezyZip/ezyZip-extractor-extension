@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ezyZip Ekstraktor File",
+    "description": "Extension name shown on the Chrome extensions page and Web Store"
+  },
+  "extensionDescription": {
+    "message": "Klik kanan tautan arsip apa pun dan ekstrak langsung dengan ezyZip.",
+    "description": "Extension description shown on the Chrome extensions page and Web Store"
+  },
+  "menuTitle": {
+    "message": "Ekstrak dengan ezyZip",
+    "description": "Right-click context menu label shown on links"
+  }
+}

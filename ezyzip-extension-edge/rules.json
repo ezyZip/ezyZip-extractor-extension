@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "access-control-expose-headers", "operation": "append", "value": "Content-Disposition, Content-Length" }
+      ]
+    },
+    "condition": {
+      "initiatorDomains": ["www.ezyzip.com", "ezyzip.com", "ezyzip.pro"],
+      "resourceTypes": ["xmlhttprequest", "other"],
+      "requestMethods": ["get"]
+    }
+  }
+]

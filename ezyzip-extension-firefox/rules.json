@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "priority": 2,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "access-control-allow-origin",   "operation": "set",    "value": "https://www.ezyzip.com" },
+        { "header": "access-control-expose-headers", "operation": "append", "value": "Content-Disposition, Content-Length" }
+      ]
+    },
+    "condition": {
+      "initiatorDomains": ["www.ezyzip.com"],
+      "resourceTypes": ["xmlhttprequest", "other"],
+      "requestMethods": ["get"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "access-control-allow-origin",   "operation": "set",    "value": "https://ezyzip.com" },
+        { "header": "access-control-expose-headers", "operation": "append", "value": "Content-Disposition, Content-Length" }
+      ]
+    },
+    "condition": {
+      "initiatorDomains": ["ezyzip.com"],
+      "resourceTypes": ["xmlhttprequest", "other"],
+      "requestMethods": ["get"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        { "header": "access-control-allow-origin",   "operation": "set",    "value": "https://ezyzip.pro" },
+        { "header": "access-control-expose-headers", "operation": "append", "value": "Content-Disposition, Content-Length" }
+      ]
+    },
+    "condition": {
+      "initiatorDomains": ["ezyzip.pro"],
+      "resourceTypes": ["xmlhttprequest", "other"],
+      "requestMethods": ["get"]
+    }
+  }
+]
